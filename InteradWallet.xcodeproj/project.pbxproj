@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E77CC601B0E6E4F00E12581 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E77CC5F1B0E6E4F00E12581 /* AppDelegate.swift */; };
+		8E77CC671B0E6E4F00E12581 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E77CC661B0E6E4F00E12581 /* Images.xcassets */; };
+		8E77CC6A1B0E6E4F00E12581 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E77CC681B0E6E4F00E12581 /* LaunchScreen.xib */; };
+		8E77CC761B0E6E4F00E12581 /* InteradWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E77CC751B0E6E4F00E12581 /* InteradWalletTests.swift */; };
+		8E8B63F11B14D338002CCD9B /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B63EF1B14D338002CCD9B /* CardTableViewCell.swift */; };
+		8E8B63F21B14D338002CCD9B /* CardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E8B63F01B14D338002CCD9B /* CardTableViewCell.xib */; };
+		8E8B63F51B14D340002CCD9B /* AllCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B63F31B14D340002CCD9B /* AllCardsViewController.swift */; };
+		8E8B63F61B14D340002CCD9B /* AllCardsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E8B63F41B14D340002CCD9B /* AllCardsViewController.xib */; };
+		8E8B63F81B14D35F002CCD9B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B63F71B14D35F002CCD9B /* Utilities.swift */; };
+		8E8B64391B14DEBC002CCD9B /* CardGroup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8B642E1B14DEBC002CCD9B /* CardGroup.framework */; };
+		8E8B64421B14DEBC002CCD9B /* CardGroupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B64411B14DEBC002CCD9B /* CardGroupTests.swift */; };
+		8E8B64451B14DEBC002CCD9B /* CardGroup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8B642E1B14DEBC002CCD9B /* CardGroup.framework */; };
+		8E8B64461B14DEBC002CCD9B /* CardGroup.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8B642E1B14DEBC002CCD9B /* CardGroup.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8E8B644E1B14DED5002CCD9B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B63FD1B14DA59002CCD9B /* Card.swift */; };
+		8E8B644F1B14DED9002CCD9B /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B63F91B14D3AC002CCD9B /* CreditCard.swift */; };
+		8E8B64501B14DEDD002CCD9B /* DebitCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B63FB1B14D557002CCD9B /* DebitCard.swift */; };
+		8E8B64511B14DEE3002CCD9B /* GiftCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B64021B14DDFA002CCD9B /* GiftCard.swift */; };
+		8E8B64521B14DEE6002CCD9B /* LoyaltyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B64041B14DE02002CCD9B /* LoyaltyCard.swift */; };
+		8EC5ABD81B150A4300EDE959 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B63FD1B14DA59002CCD9B /* Card.swift */; };
+		8EC5ABE41B151AE000EDE959 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B63F71B14D35F002CCD9B /* Utilities.swift */; };
+		8EC5ABE91B15291500EDE959 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B63F91B14D3AC002CCD9B /* CreditCard.swift */; };
+		8EC5ABEA1B15291800EDE959 /* DebitCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B63FB1B14D557002CCD9B /* DebitCard.swift */; };
+		8EC5ABEB1B15291A00EDE959 /* GiftCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B64021B14DDFA002CCD9B /* GiftCard.swift */; };
+		8EC5ABEC1B15291C00EDE959 /* LoyaltyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B64041B14DE02002CCD9B /* LoyaltyCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E77CC701B0E6E4F00E12581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E77CC521B0E6E4F00E12581 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E77CC591B0E6E4F00E12581;
+			remoteInfo = InteradWallet;
+		};
+		8E8B643A1B14DEBC002CCD9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E77CC521B0E6E4F00E12581 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E8B642D1B14DEBC002CCD9B;
+			remoteInfo = CardGroup;
+		};
+		8E8B643C1B14DEBC002CCD9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E77CC521B0E6E4F00E12581 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E77CC591B0E6E4F00E12581;
+			remoteInfo = InteradWallet;
+		};
+		8E8B64431B14DEBC002CCD9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E77CC521B0E6E4F00E12581 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E8B642D1B14DEBC002CCD9B;
+			remoteInfo = CardGroup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8E8B644A1B14DEBC002CCD9B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8E8B64461B14DEBC002CCD9B /* CardGroup.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8E77CC5A1B0E6E4F00E12581 /* InteradWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteradWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E77CC5E1B0E6E4F00E12581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E77CC5F1B0E6E4F00E12581 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E77CC661B0E6E4F00E12581 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8E77CC691B0E6E4F00E12581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8E77CC6F1B0E6E4F00E12581 /* InteradWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InteradWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E77CC741B0E6E4F00E12581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E77CC751B0E6E4F00E12581 /* InteradWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteradWalletTests.swift; sourceTree = "<group>"; };
+		8E8B63EF1B14D338002CCD9B /* CardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		8E8B63F01B14D338002CCD9B /* CardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardTableViewCell.xib; sourceTree = "<group>"; };
+		8E8B63F31B14D340002CCD9B /* AllCardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllCardsViewController.swift; sourceTree = "<group>"; };
+		8E8B63F41B14D340002CCD9B /* AllCardsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllCardsViewController.xib; sourceTree = "<group>"; };
+		8E8B63F71B14D35F002CCD9B /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		8E8B63F91B14D3AC002CCD9B /* CreditCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreditCard.swift; path = ../InteradWallet/CreditCard.swift; sourceTree = "<group>"; };
+		8E8B63FB1B14D557002CCD9B /* DebitCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DebitCard.swift; path = ../InteradWallet/DebitCard.swift; sourceTree = "<group>"; };
+		8E8B63FD1B14DA59002CCD9B /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Card.swift; path = ../InteradWallet/Card.swift; sourceTree = "<group>"; };
+		8E8B64021B14DDFA002CCD9B /* GiftCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GiftCard.swift; path = ../InteradWallet/GiftCard.swift; sourceTree = "<group>"; };
+		8E8B64041B14DE02002CCD9B /* LoyaltyCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoyaltyCard.swift; path = ../InteradWallet/LoyaltyCard.swift; sourceTree = "<group>"; };
+		8E8B642E1B14DEBC002CCD9B /* CardGroup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CardGroup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8B64311B14DEBC002CCD9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E8B64381B14DEBC002CCD9B /* CardGroupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardGroupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8B64401B14DEBC002CCD9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E8B64411B14DEBC002CCD9B /* CardGroupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGroupTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E77CC571B0E6E4F00E12581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8B64451B14DEBC002CCD9B /* CardGroup.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E77CC6C1B0E6E4F00E12581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8B642A1B14DEBC002CCD9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8B64351B14DEBC002CCD9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8B64391B14DEBC002CCD9B /* CardGroup.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E77CC511B0E6E4F00E12581 = {
+			isa = PBXGroup;
+			children = (
+				8E77CC5C1B0E6E4F00E12581 /* InteradWallet */,
+				8E77CC721B0E6E4F00E12581 /* InteradWalletTests */,
+				8E8B642F1B14DEBC002CCD9B /* CardGroup */,
+				8E8B643E1B14DEBC002CCD9B /* CardGroupTests */,
+				8E77CC5B1B0E6E4F00E12581 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E77CC5B1B0E6E4F00E12581 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E77CC5A1B0E6E4F00E12581 /* InteradWallet.app */,
+				8E77CC6F1B0E6E4F00E12581 /* InteradWalletTests.xctest */,
+				8E8B642E1B14DEBC002CCD9B /* CardGroup.framework */,
+				8E8B64381B14DEBC002CCD9B /* CardGroupTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E77CC5C1B0E6E4F00E12581 /* InteradWallet */ = {
+			isa = PBXGroup;
+			children = (
+				8E8B63F71B14D35F002CCD9B /* Utilities.swift */,
+				8E77CC5F1B0E6E4F00E12581 /* AppDelegate.swift */,
+				8E8B63EF1B14D338002CCD9B /* CardTableViewCell.swift */,
+				8E8B63F01B14D338002CCD9B /* CardTableViewCell.xib */,
+				8E8B63F31B14D340002CCD9B /* AllCardsViewController.swift */,
+				8E8B63F41B14D340002CCD9B /* AllCardsViewController.xib */,
+				8E77CC661B0E6E4F00E12581 /* Images.xcassets */,
+				8E77CC681B0E6E4F00E12581 /* LaunchScreen.xib */,
+				8E77CC5D1B0E6E4F00E12581 /* Supporting Files */,
+			);
+			path = InteradWallet;
+			sourceTree = "<group>";
+		};
+		8E77CC5D1B0E6E4F00E12581 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E77CC5E1B0E6E4F00E12581 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E77CC721B0E6E4F00E12581 /* InteradWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E77CC751B0E6E4F00E12581 /* InteradWalletTests.swift */,
+				8E77CC731B0E6E4F00E12581 /* Supporting Files */,
+			);
+			path = InteradWalletTests;
+			sourceTree = "<group>";
+		};
+		8E77CC731B0E6E4F00E12581 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E77CC741B0E6E4F00E12581 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E8B642F1B14DEBC002CCD9B /* CardGroup */ = {
+			isa = PBXGroup;
+			children = (
+				8E8B63FD1B14DA59002CCD9B /* Card.swift */,
+				8E8B63F91B14D3AC002CCD9B /* CreditCard.swift */,
+				8E8B63FB1B14D557002CCD9B /* DebitCard.swift */,
+				8E8B64021B14DDFA002CCD9B /* GiftCard.swift */,
+				8E8B64041B14DE02002CCD9B /* LoyaltyCard.swift */,
+				8E8B64301B14DEBC002CCD9B /* Supporting Files */,
+			);
+			path = CardGroup;
+			sourceTree = "<group>";
+		};
+		8E8B64301B14DEBC002CCD9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E8B64311B14DEBC002CCD9B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E8B643E1B14DEBC002CCD9B /* CardGroupTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E8B64411B14DEBC002CCD9B /* CardGroupTests.swift */,
+				8E8B643F1B14DEBC002CCD9B /* Supporting Files */,
+			);
+			path = CardGroupTests;
+			sourceTree = "<group>";
+		};
+		8E8B643F1B14DEBC002CCD9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E8B64401B14DEBC002CCD9B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8E8B642B1B14DEBC002CCD9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8E77CC591B0E6E4F00E12581 /* InteradWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E77CC791B0E6E4F00E12581 /* Build configuration list for PBXNativeTarget "InteradWallet" */;
+			buildPhases = (
+				8E77CC561B0E6E4F00E12581 /* Sources */,
+				8E77CC571B0E6E4F00E12581 /* Frameworks */,
+				8E77CC581B0E6E4F00E12581 /* Resources */,
+				8E8B644A1B14DEBC002CCD9B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E8B64441B14DEBC002CCD9B /* PBXTargetDependency */,
+			);
+			name = InteradWallet;
+			productName = InteradWallet;
+			productReference = 8E77CC5A1B0E6E4F00E12581 /* InteradWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E77CC6E1B0E6E4F00E12581 /* InteradWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E77CC7C1B0E6E4F00E12581 /* Build configuration list for PBXNativeTarget "InteradWalletTests" */;
+			buildPhases = (
+				8E77CC6B1B0E6E4F00E12581 /* Sources */,
+				8E77CC6C1B0E6E4F00E12581 /* Frameworks */,
+				8E77CC6D1B0E6E4F00E12581 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E77CC711B0E6E4F00E12581 /* PBXTargetDependency */,
+			);
+			name = InteradWalletTests;
+			productName = InteradWalletTests;
+			productReference = 8E77CC6F1B0E6E4F00E12581 /* InteradWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E8B642D1B14DEBC002CCD9B /* CardGroup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E8B64471B14DEBC002CCD9B /* Build configuration list for PBXNativeTarget "CardGroup" */;
+			buildPhases = (
+				8E8B64291B14DEBC002CCD9B /* Sources */,
+				8E8B642A1B14DEBC002CCD9B /* Frameworks */,
+				8E8B642B1B14DEBC002CCD9B /* Headers */,
+				8E8B642C1B14DEBC002CCD9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardGroup;
+			productName = CardGroup;
+			productReference = 8E8B642E1B14DEBC002CCD9B /* CardGroup.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E8B64371B14DEBC002CCD9B /* CardGroupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E8B644B1B14DEBC002CCD9B /* Build configuration list for PBXNativeTarget "CardGroupTests" */;
+			buildPhases = (
+				8E8B64341B14DEBC002CCD9B /* Sources */,
+				8E8B64351B14DEBC002CCD9B /* Frameworks */,
+				8E8B64361B14DEBC002CCD9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E8B643B1B14DEBC002CCD9B /* PBXTargetDependency */,
+				8E8B643D1B14DEBC002CCD9B /* PBXTargetDependency */,
+			);
+			name = CardGroupTests;
+			productName = CardGroupTests;
+			productReference = 8E8B64381B14DEBC002CCD9B /* CardGroupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E77CC521B0E6E4F00E12581 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = msadoon;
+				TargetAttributes = {
+					8E77CC591B0E6E4F00E12581 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					8E77CC6E1B0E6E4F00E12581 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 8E77CC591B0E6E4F00E12581;
+					};
+					8E8B642D1B14DEBC002CCD9B = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					8E8B64371B14DEBC002CCD9B = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 8E77CC591B0E6E4F00E12581;
+					};
+				};
+			};
+			buildConfigurationList = 8E77CC551B0E6E4F00E12581 /* Build configuration list for PBXProject "InteradWallet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E77CC511B0E6E4F00E12581;
+			productRefGroup = 8E77CC5B1B0E6E4F00E12581 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E77CC591B0E6E4F00E12581 /* InteradWallet */,
+				8E77CC6E1B0E6E4F00E12581 /* InteradWalletTests */,
+				8E8B642D1B14DEBC002CCD9B /* CardGroup */,
+				8E8B64371B14DEBC002CCD9B /* CardGroupTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E77CC581B0E6E4F00E12581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8B63F61B14D340002CCD9B /* AllCardsViewController.xib in Resources */,
+				8E8B63F21B14D338002CCD9B /* CardTableViewCell.xib in Resources */,
+				8E77CC6A1B0E6E4F00E12581 /* LaunchScreen.xib in Resources */,
+				8E77CC671B0E6E4F00E12581 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E77CC6D1B0E6E4F00E12581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8B642C1B14DEBC002CCD9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8B64361B14DEBC002CCD9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E77CC561B0E6E4F00E12581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC5ABE91B15291500EDE959 /* CreditCard.swift in Sources */,
+				8EC5ABEA1B15291800EDE959 /* DebitCard.swift in Sources */,
+				8E8B63F51B14D340002CCD9B /* AllCardsViewController.swift in Sources */,
+				8EC5ABD81B150A4300EDE959 /* Card.swift in Sources */,
+				8E77CC601B0E6E4F00E12581 /* AppDelegate.swift in Sources */,
+				8EC5ABEC1B15291C00EDE959 /* LoyaltyCard.swift in Sources */,
+				8EC5ABEB1B15291A00EDE959 /* GiftCard.swift in Sources */,
+				8E8B63F81B14D35F002CCD9B /* Utilities.swift in Sources */,
+				8E8B63F11B14D338002CCD9B /* CardTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E77CC6B1B0E6E4F00E12581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E77CC761B0E6E4F00E12581 /* InteradWalletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8B64291B14DEBC002CCD9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8B64521B14DEE6002CCD9B /* LoyaltyCard.swift in Sources */,
+				8E8B644F1B14DED9002CCD9B /* CreditCard.swift in Sources */,
+				8E8B64511B14DEE3002CCD9B /* GiftCard.swift in Sources */,
+				8EC5ABE41B151AE000EDE959 /* Utilities.swift in Sources */,
+				8E8B644E1B14DED5002CCD9B /* Card.swift in Sources */,
+				8E8B64501B14DEDD002CCD9B /* DebitCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8B64341B14DEBC002CCD9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8B64421B14DEBC002CCD9B /* CardGroupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E77CC711B0E6E4F00E12581 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E77CC591B0E6E4F00E12581 /* InteradWallet */;
+			targetProxy = 8E77CC701B0E6E4F00E12581 /* PBXContainerItemProxy */;
+		};
+		8E8B643B1B14DEBC002CCD9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E8B642D1B14DEBC002CCD9B /* CardGroup */;
+			targetProxy = 8E8B643A1B14DEBC002CCD9B /* PBXContainerItemProxy */;
+		};
+		8E8B643D1B14DEBC002CCD9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E77CC591B0E6E4F00E12581 /* InteradWallet */;
+			targetProxy = 8E8B643C1B14DEBC002CCD9B /* PBXContainerItemProxy */;
+		};
+		8E8B64441B14DEBC002CCD9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E8B642D1B14DEBC002CCD9B /* CardGroup */;
+			targetProxy = 8E8B64431B14DEBC002CCD9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E77CC681B0E6E4F00E12581 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E77CC691B0E6E4F00E12581 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E77CC771B0E6E4F00E12581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E77CC781B0E6E4F00E12581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E77CC7A1B0E6E4F00E12581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InteradWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E77CC7B1B0E6E4F00E12581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InteradWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E77CC7D1B0E6E4F00E12581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InteradWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InteradWallet.app/InteradWallet";
+			};
+			name = Debug;
+		};
+		8E77CC7E1B0E6E4F00E12581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InteradWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InteradWallet.app/InteradWallet";
+			};
+			name = Release;
+		};
+		8E8B64481B14DEBC002CCD9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CardGroup/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E8B64491B14DEBC002CCD9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CardGroup/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8E8B644C1B14DEBC002CCD9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CardGroupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InteradWallet.app/InteradWallet";
+			};
+			name = Debug;
+		};
+		8E8B644D1B14DEBC002CCD9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CardGroupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InteradWallet.app/InteradWallet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E77CC551B0E6E4F00E12581 /* Build configuration list for PBXProject "InteradWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E77CC771B0E6E4F00E12581 /* Debug */,
+				8E77CC781B0E6E4F00E12581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E77CC791B0E6E4F00E12581 /* Build configuration list for PBXNativeTarget "InteradWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E77CC7A1B0E6E4F00E12581 /* Debug */,
+				8E77CC7B1B0E6E4F00E12581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E77CC7C1B0E6E4F00E12581 /* Build configuration list for PBXNativeTarget "InteradWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E77CC7D1B0E6E4F00E12581 /* Debug */,
+				8E77CC7E1B0E6E4F00E12581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E8B64471B14DEBC002CCD9B /* Build configuration list for PBXNativeTarget "CardGroup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E8B64481B14DEBC002CCD9B /* Debug */,
+				8E8B64491B14DEBC002CCD9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E8B644B1B14DEBC002CCD9B /* Build configuration list for PBXNativeTarget "CardGroupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E8B644C1B14DEBC002CCD9B /* Debug */,
+				8E8B644D1B14DEBC002CCD9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E77CC521B0E6E4F00E12581 /* Project object */;
+}
